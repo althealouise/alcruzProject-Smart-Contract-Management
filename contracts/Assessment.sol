@@ -41,7 +41,7 @@ contract Assessment {
 
         assert(balance == _previousBalance + _amount);
 
-        emit DepositCustom(_amount); // Emitting custom event for deposit with custom amount
+        emit DepositCustom(_amount); // emitting custom event for deposit with custom amount
     }
 
     function withdraw(uint256 _withdrawAmount) public {
