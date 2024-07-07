@@ -25,7 +25,7 @@ cd <folder-name>
 1. Connect Metamask.
 - You will do this by installing the [Metamask extension](https://metamask.io/download/) for the browser that you are using
 - For setting up the metamask network and importing the owner account, follow this [tutorial](https://youtu.be/e_4-Q77XJkw?si=ZT3-UaTQiF_TjGkA) by Metacrafter Chris. This video is very helpful as it also contains the fixes for all the possible errors you may encounter
-2. **Connect Wallet**: Click the "Connect Wallet" button to connect your MetaMask wallet.
+2. Connect Wallet.
 3. **Deposit ETH**:
 - Click the "Deposit 1 ETH" button or;
 - Enter the amount of Ethereum you wish to deposit and click "Deposit".
