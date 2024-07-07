@@ -169,6 +169,7 @@ export default function HomePage() {
     getWallet();
   }, []);
 
+
   return (
     <main className="container">
       <header>
