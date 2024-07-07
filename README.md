@@ -15,11 +15,11 @@ cd <folder-name>
 ```
 3. Inside the project directory, in the terminal type: ```npm i```
 4. Open three additional terminals in your VS code
-- In the second terminal type: ```npx hardhat node```
-- In the third terminal, type: ```npx hardhat run --network localhost scripts/deploy.js```
-- In the fourth terminal, type: ```npm install bootstrap```. This is for the appearance of the frontend.
+- In the second terminal, type the command: ```npx hardhat node```
+- In the third terminal: ```npx hardhat run --network localhost scripts/deploy.js```
+- In the fourth terminal: ```npm install bootstrap```. This is for the appearance of the frontend.
 5. Back in the first terminal, type ```npm run dev``` to launch the front-end.
-6. After this, the project will be running on your localhost. ``` http://localhost:3000/```
+6. After this, the project will be running on your localhost. Open this ``` http://localhost:3000/``` in your browser window.
 
 ## Running the frontend application
 1. Connect Metamask.
