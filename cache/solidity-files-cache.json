@@ -35,6 +35,41 @@
       "artifacts": [
         "Assessment"
       ]
+    },
+    "/Users/altheacruz/Desktop/METACRAFTERS/alcruzProject-Smart-Contract-Management/contracts/Assessment.sol": {
+      "lastModificationDate": 1720853031050,
+      "contentHash": "9f9b5ab28e252f55f1d65a22e1055b2f",
+      "sourceName": "contracts/Assessment.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Assessment"
+      ]
     }
   }
 }
