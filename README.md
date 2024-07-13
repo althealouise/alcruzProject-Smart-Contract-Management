@@ -2,9 +2,12 @@
 This project allows users to interact with a simple Ethereum smart contract deployed on the Ethereum blockchain using MetaMask.
 
 ## Features
-- Deposit Ethereum (ETH) into the contract (1 or specify amount).
-- Withdraw Ethereum (ETH) from the contract (1 or specify amount).
+- Deposit Ethereum (ETH) into the contract.
+- Withdraw Ethereum (ETH) from the contract.
 - View account balance and address.
+- Estimate the balance after 12 months based on current savings.
+- View deposit transaction history with timestamps.
+
 
 ## Setup instructions
 1. Create an empty folder in your desired directory.
@@ -29,11 +32,14 @@ cd <folder-name>
 3. **Deposit ETH**:
 - Click the "Deposit 1 ETH" button or;
 - Enter the amount of Ethereum you wish to deposit and click "Deposit".
-4. **Withdraw ETH:**
+4. **Withdraw ETH**:
 - Click the "Withdraw 1 ETH" button or;
 - Enter the amount of Ethereum you wish to withdraw and click "Withdraw".
-5. **Default Actions**: You can also click "Deposit 1 ETH" or "Withdraw 1 ETH" for standard transactions.
-6. You will get an error when the ```withdrawAmount``` entered is greater than the ```balance``` of the account.
+5. **Estimate Balance**:
+- View the estimated balance after 12 months displayed on the dashboard.
+6. **View Deposit History**:
+- View the deposit history with timestamps displayed on the dashboard. This automatically refreshes every time you make a new deposit
+7. You will get an error when the ```withdrawAmount``` entered is greater than the ```balance``` of the account.
 
 ## Credits
 This project was made with the help of the [starter template](https://github.com/MetacrafterChris/SCM-Starter/tree/main) by Christopher Gold (Metacrafter Chris)
